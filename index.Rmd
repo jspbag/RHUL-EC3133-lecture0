@@ -1,0 +1,136 @@
+---
+pagetitle: EC3133 introduction and practicalities
+output: 
+  revealjs::revealjs_presentation:
+    incremental: false
+    theme: solarized
+    self_contained: false
+    # reveal_plugins: ["menu","notes","chalkboard"]
+    reveal_plugins: ["menu"]
+    highlight: pygments
+    center: true
+    transition: none
+    background_transition: none 
+    reveal_options:
+      # chalkboard:
+      #   theme: whiteboard
+      #   toggleNotesButton: true
+      #   toggleChalkboardButton: true
+      menu:
+        numbers: true
+      slideNumber: true
+      previewLinks: false
+    fig_caption: true
+    pandoc_args:
+    - --indented-code-classes
+    - lineNumbers
+    css: mystyle.css
+    
+--- 
+
+<section>
+
+<h1>EC3133 introduction and practicalities</h1>
+
+<br>
+
+<h2>[Jesper Bagger](mailto:jesper.bagger@rhul.ac.uk)</h2>
+
+<h3>EC3133 | Royal Holloway | 2020/21</h3>
+
+</section>
+
+## EC3133 
+
+EC3133 deepens your understanding of **econometric theory** and its **applications**, enabling you to **appreciate and undertake applied economic work** in the worlds of business and government policy. 
+
+EC3133 covers core econometric methods, including the estimation of causal effects using **cross section data** and **panel data**, and prediction with **Big Data**
+
+EC3133 applications are developed using the econometric software R on RStudio 
+
+## EC3133 learning objectives
+
+- Understand the theoretical properties of different econometric estimation and testing procedures under various modeling assumptions
+
+- Understand how to evaluate the appropriateness of econometric estimation methods under different data limitations and modeling assumptions
+
+- Be able to apply relevant econometric and statistical techniques to real data using econometric software (R)
+
+## Plan
+
+- Introducing R with RStudio
+
+- Review of cross section regression analysis
+
+- Regression with binary dependent variables
+
+- Panel data regressions
+
+- Instrumental variable regressions
+
+- Experiments and quasi-experiments
+
+- Prediction with many regressors and Big Data
+
+## Assessement
+
+- Final Exam (40%)
+
+- Graded homework (20% + 20%)
+
+  Monday Oct 26, 2020
+  
+  Monday Nov 23, 2020
+
+- Online quizzes (20%)
+
+
+## R and RStudio
+
+R is an **open source** programming language for statistical computing and graphics
+
+R is widely used in academia and in the worlds of business and government
+
+RStudio is a development environment for R
+
+
+## Textbook(s)
+
+**Main text**
+
+Stock, James H. and Mark W. Watson, *Introduction to Econometrics*, 4th Edn. (Global Edn.), 2020, Pearson 
+
+(earlier editions are also suitable)
+
+**Companion text**
+
+Christoph Hanck, Martin Arnold, Alexander Gerber, and Martin Schmelzer, *Introduction to Econometrics with R*, 2020, e-text link: https://www.econometrics-with-r.org/
+
+
+## Lectures, seminars, online feedback sessions
+
+- Pre-recorded short lecture "snippets" made available on Moodle week by week
+
+  Lecture snippets assessed by online quizzes 
+
+- Weekly 1 hour live lecture 
+
+  Friday 11-12
+
+- 1 hour seminar to go over weekly problem set
+
+  Friday 12-13
+
+- Online feedback sessions 
+
+  MS Teams, Monday 14-15; Tuesday 12-13
+  
+## Moodle
+
+- Pre-recorded lecture snippets to review probability and statistics (Stock and Watson, ch. 1-3)
+  
+  Quizzes not assessed this week; will be next week!
+    
+- Slides and problem sets 
+    
+- Recorded instructions on how to download and install R and RStudio on Windows and macOS
